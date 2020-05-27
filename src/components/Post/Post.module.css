@@ -1,0 +1,51 @@
+.Post {
+  width: 70%;
+  height: 40%;
+  margin: 5px auto;
+  overflow: auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.Profile {
+  width: 100%;
+  height: 6vh;
+  margin: 5px auto;
+  overflow: visible;
+  display: flex;
+  background-color: white;
+}
+
+.Profile p {
+  font-size: smaller;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: gray;
+}
+
+.Content {
+  width: 90%;
+  height: 55%;
+  margin: auto;
+  overflow: auto;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+  background-color: white;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: start;
+}
+
+.Content:hover {
+  background-color: azure;
+}
+
+@media (max-width: 600px) {
+  .Post {
+    width: 90%;
+    height: 90%;
+    margin: 5px auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 20px;
+  }
+}

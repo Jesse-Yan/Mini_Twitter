@@ -1,0 +1,45 @@
+.NewPost {
+  width: 40%;
+  height: 93vh;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(187, 247, 255);
+  scroll-behavior: smooth;
+  overflow: visible;
+  border-radius: 10px;
+  transition: background 1s ease-out;
+}
+
+.NewPost:hover {
+  background-color: rgb(187, 255, 174);
+  transition: background 1s ease-out;
+}
+
+.NewPost p {
+  font: outline;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Form {
+  margin: 10px;
+}
+
+.Form label {
+  font: outline;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(89, 203, 255);
+  border: 2px solid #ffcccc;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .NewPost {
+    width: 100%;
+    height: 150vh;
+  }
+}

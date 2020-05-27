@@ -1,0 +1,13 @@
+.Layout {
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+}
+
+.Layout nav {
+  height: 7vh;
+}
+
+.Content {
+  height: 93vh;
+}

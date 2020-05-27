@@ -1,0 +1,7 @@
+.ProfilePhoto {
+  margin: 5px;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  display: flex;
+}

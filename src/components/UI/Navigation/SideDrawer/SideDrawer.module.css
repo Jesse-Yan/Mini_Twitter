@@ -1,0 +1,65 @@
+.SideDrawer {
+  position: fixed;
+  width: 200px;
+  max-width: 70%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  background-color: #f79df2;
+  padding: 32px 16px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .SideDrawer {
+    display: none;
+  }
+}
+
+.Open {
+  animation: openSideDrawer 0.5s ease forwards;
+}
+
+.Close {
+  animation: closeSideDrawer 0.5s ease forwards;
+}
+
+@keyframes openSideDrawer {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(3%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes closeSideDrawer {
+  0% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(3%);
+  }
+  75% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+.Logo {
+  height: 11%;
+  margin-bottom: 32px;
+}

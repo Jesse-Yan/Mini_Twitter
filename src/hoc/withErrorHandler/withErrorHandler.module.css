@@ -1,0 +1,11 @@
+.ErrorModal {
+  transition: transform 0.5s ease-out;
+}
+
+.OpenErrorModal {
+  transform: translateX(0);
+}
+
+.CloseErrorModal {
+  transform: translateX(100%);
+}
