@@ -1,10 +1,3 @@
 language: node_js
 node_js:
   - '8'
-
-before_install: npm install && npm run build
-
-deploy:
-  provider: firebase
-  token:
-    secure: "AAAA3R9P_pY:APA91bHwom3zThxgmt_MleMiLrVoVbTwUV4g_J7i3aY8G3UvgOiYHHshqZuIZaAHjgymg67d0CQKRtACCy2eDLCUbJoME7aFctMZB06fTNGziewUHpH4DjzbOMgNWETsvc12dIIr7G-1"
