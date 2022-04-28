@@ -1,5 +1,5 @@
 # Mini-Twitter
-A wonderful app for posting your and sharing your moment.
+A web app for posting your and sharing your moment written in ReactJS.
 
 [![Build Status](https://www.travis-ci.org/JIangZeMingKuangTu/Mini-Twitter.svg?branch=master)](https://www.travis-ci.org/JIangZeMingKuangTu/Mini-Twitter)
 
